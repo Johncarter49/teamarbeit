@@ -1,0 +1,28 @@
+body{
+    height: 800px;
+    background-color: #cccccc;
+    background-image: linear-gradient(red, blue);
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  .navbar li {
+    display: inline;
+    float: left;
+  }
+  
+.navbar a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #111;
+  }
